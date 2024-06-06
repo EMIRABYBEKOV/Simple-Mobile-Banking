@@ -12,7 +12,7 @@ Simple Online Banking is a comprehensive project that includes two primary compo
 
 ```plaintext
 simple_online_banking/
-├── bank_backend/xx
+├── bank_backend/
 ...
 └── bank_mobile_app/
 ...
