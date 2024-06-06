@@ -1,0 +1,111 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# If your Django settings include a local settings file:
+local_settings.py
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Android Studio
+*.iml
+.gradle/
+.idea/
+build/
+captures/
+.externalNativeBuild/
+caches/
+outputs/
+intermediates/
+local.properties
+*.hprof
+
+# Python
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+bin/
+obj/
+*.so
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environments
+.env
+.venv
+.envrc
+.pyenv
+.pyenv-*
+.spacemacs.env
+.python-version
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# pyenv
+.python-version
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+env/
+ENV/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

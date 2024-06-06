@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10px"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="receiver:"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/receiver_tr"
+            android:textColor="@color/black"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10px"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="1234567890"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="30dp"
+
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="sender:"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sender_tr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="1234567890"
+            android:textColor="@color/black"
+
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/montserrat_alternates"
+
+            android:text="sum:"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sum_tr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="12000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="currency:"
+            android:textSize="14sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/currency_tr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="USD"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

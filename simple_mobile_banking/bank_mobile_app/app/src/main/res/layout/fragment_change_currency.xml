@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChangeCurrencyFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="230dp"
+        android:backgroundTint="#EFEDED"
+        app:cardCornerRadius="20dp">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Currency"
+            android:textSize="30dp"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your current currency:"
+            android:layout_gravity="clip_horizontal"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="35dp"
+            />
+        <TextView
+            android:id="@+id/current_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EUR"
+            android:layout_gravity="clip_horizontal"
+            android:layout_marginTop="121dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="210dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write currency that you want to buy:"
+            android:layout_gravity="clip_horizontal"
+            android:layout_marginTop="170dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="35dp"
+            />
+
+
+        <EditText
+            android:id="@+id/currency"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_alternates"
+            android:hint="KGZ or USD or EUR"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.097"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sum"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            />
+
+        <Button
+            android:id="@+id/buy_currency"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="300dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/black"
+            android:onClick="login"
+            android:text="buy"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_alternates_bold"
+            app:cornerRadius="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password_field" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

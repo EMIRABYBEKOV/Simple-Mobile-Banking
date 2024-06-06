@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10px"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="pledge:"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pledge_tr"
+            android:textColor="@color/black"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="10px"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="1234567890"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="final_amount:"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/final_amount_tr"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="1234567890"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/black"
+
+            android:fontFamily="@font/montserrat_alternates"
+
+            android:text="paid:"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/paid_tr"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="12000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="credit long:"
+            android:textSize="14sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/credit_long_tr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="USD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="date taking:"
+            android:textSize="14sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_taking_tr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/black"
+
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="USD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="date of full payment:"
+            android:textSize="14sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_of_full_payment_tr"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="USD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="180dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="every month:"
+            android:textSize="14sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/every_month_tr"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="180dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="USD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="210dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="notices:"
+            android:textSize="14sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notices_tr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="210dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="USD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="240dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="approval:"
+            android:textSize="14sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/approval_tr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="240dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="USD"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

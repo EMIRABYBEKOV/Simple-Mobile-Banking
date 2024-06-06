@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">bank6</string>
+    <string name="network_failed">Network failed</string>
+    <string name="url_login">http://127.0.0.1:8000/api/token/</string>
+    <string name="url_register">http://127.0.0.1:8000/api/accountregister/</string>
+    <string name="url_get_account">http://127.0.0.1:8000/api/account/my</string>
+    <string name="url_get_wallet">http://127.0.0.1:8000/api/wallet/get</string>
+    <string name="url_make_transfer">http://127.0.0.1:8000/api/transfer</string>
+    <string name="url_buy_currency">http://127.0.0.1:8000/api/wallet/change/currency</string>
+    <string name="url_get_transfers">http://127.0.0.1:8000/api/transfer/search/?f=username</string>
+    <string name="url_take_credit">http://127.0.0.1:8000/api/credit/</string>
+    <string name="url_take_credit_list">http://127.0.0.1:8000/api/credit/search/?f=username</string>
+    <string name="url_create_wallet">http://127.0.0.1:8000/api/wallet/func_create</string>
+
+
+    <string name="jonathan">Jonathan</string>
+    <string name="accunt_balance">Accunt balance</string>
+    <string name="_12000_0">12000.0</string>
+    <string name="euro">Euro</string>
+    <string name="account_number">Account number:</string>
+    <string name="_1234567890">1234567890</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_rules">Rules how to full blank:\n -If you want take mortgage and the price is between 10000 and 100000 dollars. You have to pay first 30% from the price. Your salary has to be more than 2000 dollars. And final amount will be +15%.\n -If you want take mortgage and the price is between 1000000 and 1000000 dollars. You have to pay first 40% from the price. Your salary has to be more than 5000 dollars. And final amount will be +15%. And your confidence has to be true.\n -If you want take consumer credit and the price is between 300 and 1000 dollars. Your salary has to be more than 100 dollars. And final amount will be +11%.\n If you want take consumer credit and the price is between 1000 and 10000 dollars. You salary has to be more than 400 dollars. And final amount will be +9%.\n -If you want take consumer credit and the price is between 10000 and 100000 dollars. You salary has to be more than 1000 dollars. And final amount will be +10%. And your confidence has to be true.\n</string>
+    <string name="username">username</string>
+
+
+</resources>

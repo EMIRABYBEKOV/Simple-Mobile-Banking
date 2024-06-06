@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/acount_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="30dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="347dp"
+            android:layout_height="137dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/table"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout1">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="15dp"
+
+                android:fontFamily="@font/montserrat_alternates"
+                android:gravity="center"
+                android:text="@string/accunt_balance"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/account_balance"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/account_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/account_balance"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/euro"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/account_currency"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/account_number"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/account_identification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/account_currency"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/textView"
+                android:text="none"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/menu_card"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginHorizontal="27dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+
+
+        <ImageButton
+            android:id="@+id/make_transfer_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#F3F3F3"
+            android:padding="19dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_baseline_send_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/currency_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#F3F3F3"
+            android:padding="17dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_baseline_autorenew_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/take_credit_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#F3F3F3"
+            android:padding="17dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_baseline_credit_card_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="250dp">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="48dp"
+            android:rotation="14"
+            android:rotationX="2"
+            android:rotationY="30"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="36dp"
+            android:rotation="-58"
+            android:rotationX="2"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="148dp"
+            android:rotation="-183"
+            android:rotationX="2"
+            android:rotationY="-30"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="284dp"
+            android:rotation="126"
+            android:rotationX="-34"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="236dp"
+            android:rotation="-42"
+            android:rotationX="2"
+            android:rotationY="22"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="272dp"
+            android:rotation="54"
+            android:rotationX="2"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="308dp"
+            android:layout_marginTop="84dp"
+            android:rotation="-18"
+            android:rotationX="2"
+            android:rotationY="30"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginTop="172dp"
+            android:rotation="147"
+            android:rotationX="2"
+            android:rotationY="-50"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="164dp"
+            android:rotation="147"
+            android:rotationX="2"
+            android:rotationY="-34"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="96dp"
+            android:rotation="147"
+            android:rotationX="34"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="332dp"
+            android:layout_marginTop="236dp"
+            android:rotation="171"
+            android:rotationX="2"
+            android:src="@drawable/ic_baseline_money_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="-30dp"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:fontFamily="@font/montserrat_alternates_bold"-->
+<!--        android:text="Change currency" />-->
+
+</FrameLayout>
