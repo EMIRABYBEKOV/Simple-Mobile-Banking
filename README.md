@@ -62,6 +62,16 @@ The mobile app is built with Android Studio. It provides the user interface and 
 
 ## Some layouts
 
+![Layout 1](simple_mobile_banking/layouts/1)
+![Layout 2](simple_mobile_banking/layouts/2)
+![Layout 3](simple_mobile_banking/layouts/3)
+![Layout 4](simple_mobile_banking/layouts/4)
+![Layout 5](simple_mobile_banking/layouts/5)
+![Layout 6](simple_mobile_banking/layouts/6)
+![Layout 7](simple_mobile_banking/layouts/7)
+![Layout 8](simple_mobile_banking/layouts/8)
+![Layout 9](simple_mobile_banking/layouts/9)
+
 
 ## License
 
