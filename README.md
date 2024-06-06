@@ -62,6 +62,8 @@ The mobile app is built with Android Studio. It provides the user interface and 
 
 ## Some layouts
 <img src="simple_mobile_banking/layouts/1" alt="Layout 1" width="300"/>
+<img src="simple_mobile_banking/layouts/1" alt="Layout 1" width="300"/>
+
 
 ![Layout 1](simple_mobile_banking/layouts/1)
 ![Layout 2](simple_mobile_banking/layouts/2)
