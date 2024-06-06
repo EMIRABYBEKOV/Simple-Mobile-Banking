@@ -66,17 +66,17 @@ The mobile app is built with Android Studio. It provides the user interface and 
   <tr>
     <td><img src="simple_mobile_banking/layouts/1" alt="Layout 1" width="200"/></td>
     <td><img src="simple_mobile_banking/layouts/2" alt="Layout 2" width="200"/></td>
-    <td><img src="simple_mobile_banking/layouts/3.png" alt="Layout 3" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/3" alt="Layout 3" width="200"/></td>
   </tr>
   <tr>
-    <td><img src="simple_mobile_banking/layouts/4.png" alt="Layout 4" width="200"/></td>
-    <td><img src="simple_mobile_banking/layouts/5.png" alt="Layout 5" width="200"/></td>
-    <td><img src="simple_mobile_banking/layouts/6.png" alt="Layout 6" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/4" alt="Layout 4" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/5" alt="Layout 5" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/6" alt="Layout 6" width="200"/></td>
   </tr>
   <tr>
-    <td><img src="simple_mobile_banking/layouts/7.png" alt="Layout 7" width="200"/></td>
-    <td><img src="simple_mobile_banking/layouts/8.png" alt="Layout 8" width="200"/></td>
-    <td><img src="simple_mobile_banking/layouts/9.png" alt="Layout 9" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/7" alt="Layout 7" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/8" alt="Layout 8" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/9" alt="Layout 9" width="200"/></td>
   </tr>
 </table>
 
