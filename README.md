@@ -61,20 +61,24 @@ The mobile app is built with Android Studio. It provides the user interface and 
 3. **Build and run the app on an emulator or a physical device.**
 
 ## Some layouts
-<img src="simple_mobile_banking/layouts/1" alt="Layout 1" width="300"/>
-<img src="simple_mobile_banking/layouts/1" alt="Layout 1" width="300"/>
 
-
-![Layout 1](simple_mobile_banking/layouts/1)
-![Layout 2](simple_mobile_banking/layouts/2)
-![Layout 3](simple_mobile_banking/layouts/3)
-![Layout 4](simple_mobile_banking/layouts/4)
-![Layout 5](simple_mobile_banking/layouts/5)
-![Layout 6](simple_mobile_banking/layouts/6)
-![Layout 7](simple_mobile_banking/layouts/7)
-![Layout 8](simple_mobile_banking/layouts/8)
-![Layout 9](simple_mobile_banking/layouts/9)
-
+<table>
+  <tr>
+    <td><img src="simple_mobile_banking/layouts/1.png" alt="Layout 1" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/2.png" alt="Layout 2" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/3.png" alt="Layout 3" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="simple_mobile_banking/layouts/4.png" alt="Layout 4" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/5.png" alt="Layout 5" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/6.png" alt="Layout 6" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="simple_mobile_banking/layouts/7.png" alt="Layout 7" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/8.png" alt="Layout 8" width="200"/></td>
+    <td><img src="simple_mobile_banking/layouts/9.png" alt="Layout 9" width="200"/></td>
+  </tr>
+</table>
 
 ## License
 
