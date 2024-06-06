@@ -61,6 +61,7 @@ The mobile app is built with Android Studio. It provides the user interface and 
 3. **Build and run the app on an emulator or a physical device.**
 
 ## Some layouts
+<img src="simple_mobile_banking/layouts/1" alt="Layout 1" width="300"/>
 
 ![Layout 1](simple_mobile_banking/layouts/1)
 ![Layout 2](simple_mobile_banking/layouts/2)
