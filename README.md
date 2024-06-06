@@ -60,6 +60,9 @@ The mobile app is built with Android Studio. It provides the user interface and 
 2. **Open the project located in `simple_online_banking/bank_mobile_app`.**
 3. **Build and run the app on an emulator or a physical device.**
 
+## Some layouts
+
+
 ## License
 
 This project is licensed under the MIT License.
